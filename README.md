@@ -21,7 +21,7 @@
 
 # Introduction #
 
-<p>This repository is used for the project given during the FUNDAMENTALS-OF-DATA-ANALYSIS module on Higher Diploma in Data Analytics course from ATU.</p>
+<p>This repository is used for the project given during the Applied Statistics module on Higher Diploma in Data Analytics course from ATU.</p>
 
 <p>For this module I created two notebooks.</p>
 
@@ -47,22 +47,38 @@ Use the scipy.stats.shapiro() function to test whether your sample came from a n
 
 Plot a histogram of your values and plot the corresponding normal distribution probability density function on top of it. </li>
 ====================================================================================
-<li> *Task 3* :  </li> 
+<li> *Task 3* :  t-Test Calculation 
+Consider the following dataset containing resting heart rates for patients before and after embarking on a two-week exercise program. 
+
+Patient ID	0	1	2	3	4	5	6	7	8	9
+Before	63	68	70	64	74	67	70	57	66	65
+After	64	64	68	64	73	70	72	54	61	63
+
+Calculate the t-statistic based on this data set, using Python. Compare it to the value given by scipy.stats. Explain your work and list any sources used.
+
+</li> 
 ====================================================================================
-<li> *Task 4* :</li> 
+<li> *Task 4* : ANOVA In this test we will estimate the probability of committing a type II error in specific circumstances. To begin, create a variable called no_type_ii and set it to 0.
+
+Now use a loop to perform the following test 10,000 times.
+
+Use numpy.random.normal to generate three samples with 100 values each. Give each a standard deviation of 0.1. Give the first sample a mean of 4.9, the second a mean of 5.0, and the third a mean of 5.1.
+
+Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type II error occurs.
+
+Summarize and explain your results.</li> 
 ===================================================================================
-<li> *Task 5*   </li>
-===================================================================================
+
 </ol>
 </p>
 
 <p> The project scope is as follows
 <ol>
-<li>  </li>
-<li> </li>
-<li>  </li>   
-<li>  </li> 
-<li> 
+<li> analyze the PlantGrowth R dataset </li>
+<li> Describe what a t-test is, how it works, and what the assumptions are </li>
+<li> perform t-tests </li>   
+<li> Perform ANOVA </li> 
+<li> Explain why it is more appropriate to apply ANOVA rather than several t-tests when analyzing more than two groups.</li>
 </li>
 </ol>
 </p>
@@ -77,11 +93,11 @@ Plot a histogram of your values and plot the corresponding normal distribution p
 
 # Additional Information #
 <ol>
-<li> My github repository is @ <a href="#">https://github.com/dectan/FUNDAMENTALS-OF-DATA-ANALYSIS</a></li>
-<li> My github Repository is called "Applied Statistic</li>
+<li> My github repository is @ <a href="#">https://github.com/dectan/applied_statistics</a></li>
+<li> My github Repository is called "applied_statistic</li>
 <li> This repository contains a .gitignore file, 2 *  Jupyter notebooks, and a readme file and a folder with images. </li>   
 <li> My Jupyter notebooks are called "project.ipynb" and "tasks.ipynb"</li> 
-<li> There are no additional files required to run program as dataset is loaded from seaborn </li>
+<li> There are no additional files required to run program as dataset and images have been saved in repoitory </li>
 <li> images are stored in a folder called "img" in this repository </li>
 <li> Libraries that need to be imported are contained in first *text* cell of both Jupyter notebooks </li> 
 </ol>
