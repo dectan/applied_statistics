@@ -212,24 +212,7 @@ Perform one-way anova on the three samples and add 1 to no_type_ii whenever a ty
 
 Summarize and explain your results.
 
-Project (40%)
-Complete the project in a single notebook called project.ipynb in your repository. The same style should be used as detailed above: explanations in MarkDown and code comments, clean code, and regular commits. Use plots as appropriate.
 
-In this project, you will analyze the PlantGrowth R dataset. You will find a short description of it on Vicent Arel-Bundock's Rdatasets page. The dataset contains two main variables, a treatment group and the weight of plants within those groups.
-
-Your task is to perform t-tests and ANOVA on this dataset while describing the dataset and explaining your work. In doing this you should:
-
-Download and save the dataset to your repository.
-
-Describe the data set in your notebook.
-
-Describe what a t-test is, how it works, and what the assumptions are.
-
-Perform a t-test to determine whether there is a significant difference between the two treatment groups trt1 and trt2.
-
-Perform ANOVA to determine whether there is a significant difference between the three treatment groups ctrl, trt1, and trt2.
-
-Explain why it is more appropriate to apply ANOVA rather than several t-tests when analyzing more than two groups.
 
 Marking Scheme
 Each component will be graded based on the following four categories. Each category carries equal weight.
