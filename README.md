@@ -124,7 +124,14 @@ Summarize and explain your results
 <li>import matplotlib.pyplot as plt</li>
 <p>Matplotlib is a low level graph plotting library in python. It is open source. Using Mathplotlib, different types of plots can be created, such as scatter plots, histograms,box plots etc.</p>
 <li>import seaborn as sns</li>
-<p>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.It is designed to work well with dataframes from Pandas
+<p>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.It is designed to work well with dataframes from Pandas</p>
+<li>from scipy import stats</li>
+<p>scipy.stats module in SciPy provides a wide range of statistical functions, probability distributions, and statistical tests.</p>
+<li>from scipy.stats import shapiro</li>
+<p>The Shapiro-Wilk test tests the null hypothesis that the data was drawn from a normal distribution.</p>
+
+
+
 </ol>
 
 Purpose
