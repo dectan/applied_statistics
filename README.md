@@ -1,9 +1,9 @@
-# Applied_Statistics
+# Applied Statistics
 
 <p>G00364639</p>
 <p>This repository is used for the project given during the Applied Statistic module on Higher Diploma in Data Analytics course from ATU.</p>
 
-<p>I have created Jupyter Notebook in Visual Studio Code, & I have added added comments to explain work, along with references<br>
+<p>I have created Jupyter Notebook in Visual Studio Code, & I have added comments to explain work, along with references<br>
 
 <p>For this markup sheet, I used the following websites as guides.<br>
 
@@ -33,6 +33,55 @@
 <ol>
 <li> **Task 1** : Permutations and Combinations  
 
+
+# Additional Information #
+<ol>
+<li> My github repository is @ <a href="#">https://github.com/dectan/applied_statistics</a></li>
+<li> My github Repository is called "applied_statistic</li>
+<li> This repository contains a .gitignore file, 2 *  Jupyter notebooks, 1 * README file, folder called "datafolder" which contains dataset and a folder with images. </li>   
+<li> My Jupyter notebooks are called "project.ipynb" and "tasks.ipynb"</li> 
+<li> There are no additional files required to run program as dataset and images have been saved in folders in this repoitory </li>
+<li> images are stored in a folder called "img" in this repository </li>
+<li> Libraries that need to be imported are contained in first *text* cell of both Jupyter notebooks </li> 
+</ol>
+
+# How to run program #
+<ol>
+<li> Install Anaconda </li>
+<li> Install Visual Studio Code </li>   
+<li> Clone repository </li> 
+<li> Open repository in Visual Studio Code </li>
+</ol>
+
+
+# Imported Libraries & functions #
+<ol>.
+<li>import numpy as np</li>
+<p> NumPy is short for "Numerical Python". It allows for matematical and logical operations on arrays efficiently. NumPy also enables user to reshape,slice ,stack and join arrays.</p>
+<li>import pandas as pd</li>
+<p>Pandas is an open source Python library that provides high performance data manipulation tools and analysis tools. It also allows for reading and writing from various file formats, such as .csv. Pandas has functions for analyzing, cleaning , exploring and manipulating data</p>
+<li>import matplotlib.pyplot as plt</li>
+<p>Matplotlib is a low level graph plotting library in python. It is open source. Using Mathplotlib, different types of plots can be created, such as scatter plots, histograms,box plots etc.</p>
+<li>import seaborn as sns</li>
+<p>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.It is designed to work well with dataframes from Pandas</p>
+<li>from scipy import stats</li>
+<p>scipy.stats module in SciPy provides a wide range of statistical functions, probability distributions, and statistical tests.</p>
+<li>from scipy.stats import shapiro</li>
+<p>The Shapiro-Wilk test tests the null hypothesis that the data was drawn from a normal distribution.</p>
+<li>from scipy.stats import norm</li>
+<p>The scipy.stats.norm module in SciPy provides functions for working with the normal distribution. It includes methods for generating random variates</p>
+<li>from scipy.stats import ttest_rel</li>
+<p>ttest_rel calculates the t-test on two variables.</p>
+<li>import math</li>
+<p>math is a standard module</p>
+<li>from math import comb</li>
+<p>math.comb() method returns the number of ways picking k unordered outcomes from n possibilities</p>
+<li>import statsmodels.api as sm</li>
+<p>powerful Python library used for statistical modeling</p>
+<li>from statsmodels.stats.multicomp import pairwise_tukeyhsd</li>
+<p>is used to perform Tukey's Honestly Significant Difference (HSD) test </p>
+
+</ol>
 Suppose we alter the Lady Tasting Tea experiment to involve twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it. You agree to accept their claim if they can tell which of the six cups in your experiment had the milk in first.  
 
 Calculate, using Python, the probability that they select the correct six cups. Here you should assume that they have no special powers in figuring it out, that they are just guessing. Remember to show and justify your workings in code and MarkDown cells.  
@@ -87,49 +136,11 @@ Summarize and explain your results
 
 <p> The project scope is as follows
 <ol>
-<li> analyze the PlantGrowth R dataset </li>
+<li> Analyze the PlantGrowth R dataset </li>
 <li> Describe what a t-test is, how it works, and what the assumptions are </li>
-<li> perform t-tests </li>   
+<li> Perform t-tests </li>   
 <li> Perform ANOVA </li> 
 <li> Explain why it is more appropriate to apply ANOVA rather than several t-tests when analyzing more than two groups.</li>
 </li>
 </ol>
 </p>
-
-# How to run program #
-<ol>
-<li> Install Anaconda </li>
-<li> Install Visual Studio Code </li>   
-<li> Clone repository </li> 
-<li> Open repository in Visual Studio Code </li>
-</ol>
-
-# Additional Information #
-<ol>
-<li> My github repository is @ <a href="#">https://github.com/dectan/applied_statistics</a></li>
-<li> My github Repository is called "applied_statistic</li>
-<li> This repository contains a .gitignore file, 2 *  Jupyter notebooks, and a readme file and a folder with images. </li>   
-<li> My Jupyter notebooks are called "project.ipynb" and "tasks.ipynb"</li> 
-<li> There are no additional files required to run program as dataset and images have been saved in repoitory </li>
-<li> images are stored in a folder called "img" in this repository </li>
-<li> Libraries that need to be imported are contained in first *text* cell of both Jupyter notebooks </li> 
-</ol>
-
-# Imported Libraries #
-<ol>.
-<li>import numpy as np</li>
-<p> NumPy is short for "Numerical Python". It allows for matematical and logical operations on arrays efficiently. NumPy also enables user to reshape,slice ,stack and join arrays.</p>
-<li>import pandas as pd</li>
-<p>Pandas is an open source Python library that provides high performance data manipulation tools and analysis tools. It also allows for reading and writing from various file formats, such as .csv. Pandas has functions for analyzing, cleaning , exploring and manipulating data</p>
-<li>import matplotlib.pyplot as plt</li>
-<p>Matplotlib is a low level graph plotting library in python. It is open source. Using Mathplotlib, different types of plots can be created, such as scatter plots, histograms,box plots etc.</p>
-<li>import seaborn as sns</li>
-<p>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.It is designed to work well with dataframes from Pandas</p>
-<li>from scipy import stats</li>
-<p>scipy.stats module in SciPy provides a wide range of statistical functions, probability distributions, and statistical tests.</p>
-<li>from scipy.stats import shapiro</li>
-<p>The Shapiro-Wilk test tests the null hypothesis that the data was drawn from a normal distribution.</p>
-
-
-
-</ol>
